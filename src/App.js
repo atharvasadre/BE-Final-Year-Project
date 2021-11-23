@@ -1,7 +1,17 @@
+import { Route } from "react-router-dom";
+
+import LandingPage from "./pages/LandingPage";
+import LoginPage from "./pages/LoginPage";
+
 function App() {
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <Route path="/landingpage">
+        <LandingPage />
+      </Route>
+      <Route path="/login">
+        <LoginPage />
+      </Route>
     </div>
   );
 }
