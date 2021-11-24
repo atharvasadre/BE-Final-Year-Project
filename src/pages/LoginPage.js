@@ -1,5 +1,11 @@
+import React from "react";
+
 const LoginPage = () => {
-  return <h1>The Login Page</h1>;
+  return (
+    <div>
+      <p>This is Login page</p>
+    </div>
+  );
 };
 
 export default LoginPage;
